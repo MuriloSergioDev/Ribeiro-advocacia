@@ -9,17 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
     "@types/node": "20.5.9",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
-    "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "flowbite-react": "^0.6.4",
     "next": "13.4.19",
     "postcss": "8.4.29",
     "react": "18.2.0",
+    "react-burger-menu": "^3.0.9",
     "react-dom": "18.2.0",
+    "react-floating-whatsapp": "^5.0.8",
+    "react-intersection-observer": "^9.5.2",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-common-types": "^6.4.2",
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/react-burger-menu": "^2.8.3",
+    "eslint": "^8.48.0"
   }
 }

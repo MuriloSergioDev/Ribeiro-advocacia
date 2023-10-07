@@ -1,8 +1,27 @@
-import './globals.css'
+import { MenuProvider } from '@/contexts/menu'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Poppins, Raleway, Roboto } from 'next/font/google'
+import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
+
+export const raleway = Raleway({
+  weight: '800',
+  variable: '--font-raleway',
+  subsets: ['latin'],
+})
+
+export const rajdhani = Poppins({
+  weight: '400',
+  variable: '--font-rajdhani',
+  subsets: ['latin'],
+})
+
+export const roboto = Roboto({
+  weight: '400',
+  variable: '--font-roboto',
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,8 +34,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${roboto.className}`}>
+      <body>
+        <MenuProvider>{children}</MenuProvider>
+      </body>
     </html>
   )
 }
