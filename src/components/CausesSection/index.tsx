@@ -1,4 +1,4 @@
-import { raleway } from '@/app/layout'
+import { raleway } from '@/app/fonts'
 import { useInView } from 'react-intersection-observer'
 
 function CausesSection() {

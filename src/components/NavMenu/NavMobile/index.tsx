@@ -1,4 +1,4 @@
-import { rajdhani } from '@/app/layout'
+import { rajdhani } from '@/app/fonts'
 import CloseMenu from '@/components/CloseMenu'
 import { useMenu } from '@/hooks/useMenu'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'

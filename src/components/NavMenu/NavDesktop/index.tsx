@@ -1,4 +1,4 @@
-import { rajdhani } from '@/app/layout'
+import { rajdhani } from '@/app/fonts'
 import BurguerMenu from '@/components/BurguerMenu'
 import { useMenu } from '@/hooks/useMenu'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'

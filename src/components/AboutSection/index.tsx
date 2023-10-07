@@ -1,4 +1,4 @@
-import { raleway } from '@/app/layout'
+import { raleway } from '@/app/fonts'
 import Image from 'next/image'
 import { useInView } from 'react-intersection-observer'
 

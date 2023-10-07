@@ -1,4 +1,4 @@
-import { raleway } from '@/app/layout'
+import { raleway } from '@/app/fonts'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons/faWhatsapp'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

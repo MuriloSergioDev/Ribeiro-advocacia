@@ -1,22 +1,10 @@
 import { MenuProvider } from '@/contexts/menu'
-import { Poppins, Raleway, Roboto } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import './globals.css'
 
 // const inter = Inter({ subsets: ['latin'] })
 
-export const raleway = Raleway({
-  weight: '800',
-  variable: '--font-raleway',
-  subsets: ['latin'],
-})
-
-export const rajdhani = Poppins({
-  weight: '400',
-  variable: '--font-rajdhani',
-  subsets: ['latin'],
-})
-
-export const roboto = Roboto({
+const roboto = Roboto({
   weight: '400',
   variable: '--font-roboto',
   subsets: ['latin'],
