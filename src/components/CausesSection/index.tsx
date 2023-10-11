@@ -2,7 +2,7 @@ import { raleway } from '@/app/fonts'
 import { useInView } from 'react-intersection-observer'
 
 function CausesSection() {
-  const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true })
+  const [ref, inView] = useInView({ threshold: 0, triggerOnce: true })
   const causas = [
     'DIVÓRCIO',
     'PENSÃO',

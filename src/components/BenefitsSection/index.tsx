@@ -4,7 +4,7 @@ import BenefitTwo from './BenefitTwo'
 function BenefitsSection() {
   return (
     <>
-      <div className="w-full bg-main-color causas" id="vantagens">
+      <div className="w-full pt-5 md:pt-0 bg-main-color causas" id="vantagens">
         <BenefitOne />
         <BenefitTwo />
       </div>

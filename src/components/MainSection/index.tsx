@@ -11,7 +11,7 @@ function MainSection() {
         <div className="w-full relative flex items-center px-5 flex-col text-center md:w-96 md:right-40 md:text-left md:items-start lg:right-52 lg:w-2/5 xl:right-96 xl:w-1/3">
           <div
             className={`relative w-72 h-72 sm:w-96 sm:h-72 opacity-0 [animation-fill-mode:backwards] ${
-              inView ? 'animate-revealfromright opacity-100' : ''
+              inView ? 'animate-revealfromtop opacity-100' : ''
             }`}
           >
             <Image
@@ -25,7 +25,7 @@ function MainSection() {
           <div
             ref={ref}
             className={`opacity-0 [animation-fill-mode:backwards] ${
-              inView ? 'animate-revealfromleft opacity-100' : ''
+              inView ? 'animate-revealfromtop opacity-100' : ''
             }`}
           >
             <h1

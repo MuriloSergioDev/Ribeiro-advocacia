@@ -11,7 +11,6 @@ function BenefitOne() {
       >
         <div className="w-full flex flex-col items-center justify-center md:flex-row gap-5 lg:gap-0 bg-main-color">
           <div
-            ref={ref}
             className={`relative w-full sm:w-2/3 h-96 md:w-1/2 lg:w-[612px] lg:h-[544px] rounded-xl opacity-0 [animation-fill-mode:backwards] ${
               inView ? 'animate-revealfromleft opacity-100' : ''
             }`}
@@ -20,10 +19,11 @@ function BenefitOne() {
           </div>
           <div
             className={`w-full md:w-1/2 lg:w-[612px] flex flex-col justify-center items-center p-4 lg:p-0 opacity-0 [animation-fill-mode:backwards] ${
-              inView ? 'animate-revealfromright opacity-100' : ''
+              inView ? 'animate-revealfromleft opacity-100' : ''
             }`}
           >
             <h2
+              ref={ref}
               className={`font-black uppercase w-full md:w-80 lg:w-96 text-2xl mb-5 2xl:text-3xl before:mr-2 before:border-2 before:border-contrast-color ${raleway.className}`}
             >
               ATENDIMENTO PERSONALIZADO

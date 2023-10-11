@@ -6,7 +6,7 @@ import './style.css'
 
 function BriefSection() {
   const { clients } = useMenu()
-  const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true })
+  const [ref, inView] = useInView({ threshold: 0.5, triggerOnce: true })
   return (
     <>
       <div
@@ -16,7 +16,7 @@ function BriefSection() {
       >
         <Carousel
           className={`flex items-center justify-center max-w-lg carousel opacity-0 [animation-fill-mode:backwards] ${
-            inView ? 'animate-revealfromtop opacity-100' : ''
+            inView ? 'animate-slideFromBot opacity-100' : ''
           }`}
         >
           {clients.map((client, index) => {

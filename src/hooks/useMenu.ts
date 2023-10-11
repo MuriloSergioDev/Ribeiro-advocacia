@@ -6,8 +6,8 @@ export function useMenu() {
   const activeStick = context.activeStick
 
   const activeMenuItems = [
-    { name: 'CAUSAS', route: '#causas' },
     { name: 'VANTAGENS', route: '#vantagens' },
+    { name: 'CAUSAS', route: '#causas' },
     { name: 'SOBRE MIM', route: '#sobre' },
     { name: 'CONTATO', route: '#contato' },
   ]
