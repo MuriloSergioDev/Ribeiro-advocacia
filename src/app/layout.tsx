@@ -23,6 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${roboto.className}`}>
       <body>
+        <title>Advogado Valber Tobias</title>
+        <meta
+          name="description"
+          content="Advogado especializado em direito do trabalho, criminal e civil. Defendendo seus direitos com excelência. Agende já!"
+        />
         <MenuProvider>{children}</MenuProvider>
       </body>
     </html>
