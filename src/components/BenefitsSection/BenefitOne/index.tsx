@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useInView } from 'react-intersection-observer'
 
 function BenefitOne() {
-  const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true })
+  const [ref, inView] = useInView({ threshold: 0, triggerOnce: true })
   return (
     <>
       <div

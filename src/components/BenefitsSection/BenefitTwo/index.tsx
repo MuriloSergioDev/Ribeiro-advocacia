@@ -21,10 +21,10 @@ function BenefitTwo() {
               SOLUÇÃO MAIS ADEQUADA AO SEU CASO
             </h2>
             <p className="w-full md:w-80 lg:w-96">
-              Valorizamos o relacionamento com nossos clientes e buscamos sempre
-              oferecer um atendimento personalizado e de qualidade. Estamos
-              comprometidos em entender suas necessidades e encontrar as
-              melhores soluções jurídicas para você.
+              Priorizamos o vínculo com nossos clientes, focando em um
+              atendimento individualizado e excelência. Nos dedicamos a
+              compreender suas demandas e identificar as soluções jurídicas
+              ideais para sua situação.
             </p>
             <a
               target="_blank"
