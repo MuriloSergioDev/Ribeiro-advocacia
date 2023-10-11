@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${roboto.className}`}>
+    <html lang="pt-br" className={`${roboto.className}`}>
       <body>
         <title>Advogado Valber Tobias</title>
         <meta
