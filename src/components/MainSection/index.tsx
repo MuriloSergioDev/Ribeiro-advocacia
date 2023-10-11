@@ -8,7 +8,7 @@ function MainSection() {
     <>
       <div className="absolute top-0 w-full h-screen bg-law bg-cover bg-center brightness-50"></div>
       <div className="flex justify-center items-center h-screen">
-        <div className="w-full relative flex items-center flex-col text-center md:w-96 md:right-40 md:text-left md:items-start lg:right-52 lg:w-2/5 xl:right-96 xl:w-1/3">
+        <div className="w-full relative flex items-center px-5 flex-col text-center md:w-96 md:right-40 md:text-left md:items-start lg:right-52 lg:w-2/5 xl:right-96 xl:w-1/3">
           <div
             className={`relative w-72 h-72 sm:w-96 sm:h-72 opacity-0 [animation-fill-mode:backwards] ${
               inView ? 'animate-revealfromright opacity-100' : ''
@@ -17,8 +17,8 @@ function MainSection() {
             <Image
               src="/logo-white.png"
               alt="logo"
-              layout="fill" // required
-              objectFit="contain"
+              fill // required
+              style={{ objectFit: 'contain' }}
               loading="lazy"
             />
           </div>

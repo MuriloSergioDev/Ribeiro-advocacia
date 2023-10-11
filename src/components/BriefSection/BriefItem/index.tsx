@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { useInView } from 'react-intersection-observer'
 
 interface BriefItemProps {
   name: string
@@ -9,14 +8,10 @@ interface BriefItemProps {
 }
 
 function BriefItem({ name, picture, message, rate }: BriefItemProps) {
-  const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true })
   return (
     <>
       <div
-        className={`text-secundary-color w-full max-w-lg h-72 rounded-xl bg-main-color flex flex-col items-center gap-10 py-10 px-20 justify-center md:py-10 opacity-0 [animation-fill-mode:backwards] ${
-          inView ? 'animate-revealfromtop opacity-100' : ''
-        }`}
-        ref={ref}
+        className={`text-secundary-color w-full max-w-lg h-72 rounded-xl bg-main-color flex flex-col items-center gap-10 py-10 px-16 justify-center md:px-20 `}
       >
         <div className="w-full flex gap-8 items-center justify-start">
           <div className={`relative w-16 h-16 rounded-xl`}>
@@ -24,8 +19,6 @@ function BriefItem({ name, picture, message, rate }: BriefItemProps) {
               src={picture}
               alt="logo"
               fill
-              objectFit="cover"
-              layout="fixed"
               loading="lazy"
               className="rounded-xl"
             />

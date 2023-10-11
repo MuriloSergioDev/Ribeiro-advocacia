@@ -41,14 +41,7 @@ function BenefitTwo() {
               inView ? 'animate-revealfromright opacity-100' : ''
             }`}
           >
-            <Image
-              src="/solucao.avif"
-              alt="logo"
-              fill
-              objectFit="cover"
-              layout="fixed"
-              loading="lazy"
-            />
+            <Image src="/solucao.avif" alt="logo" fill loading="lazy" />
           </div>
         </div>
       </div>

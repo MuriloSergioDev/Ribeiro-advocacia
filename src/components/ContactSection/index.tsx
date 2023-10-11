@@ -14,10 +14,8 @@ function ContactSection() {
           ref={ref}
         >
           <div
-            className={`text-secundary-color mt-5 transition-all duration-500 delay-0 [animation-fill-mode:backwards] md:w-1/2 2xl:w-1/3 ${
-              inView
-                ? 'animate-revealfromtop opacity-100'
-                : 'animate-textconceal opacity-0'
+            className={`text-secundary-color mt-5 transition-all duration-500 delay-0 [animation-fill-mode:backwards] md:w-1/2 2xl:w-1/3 opacity-0 ${
+              inView ? 'animate-revealfromleft opacity-100' : ''
             }`}
           >
             <h2

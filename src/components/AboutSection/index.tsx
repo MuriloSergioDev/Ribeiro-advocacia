@@ -17,11 +17,9 @@ function AboutSection() {
             }`}
           >
             <Image
-              src="/foto.jpg"
+              src="/foto-o.jpg"
               alt="logo"
               fill
-              objectFit="cover"
-              layout="fixed"
               loading="lazy"
               className="rounded-xl"
             />

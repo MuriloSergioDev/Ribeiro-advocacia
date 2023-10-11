@@ -26,8 +26,8 @@ function NavDesktop() {
           <Image
             src="/logo-white.png"
             alt="logo"
-            layout="fill" // required
-            objectFit="contain"
+            fill // required
+            style={{ objectFit: 'contain' }}
             loading="lazy"
           />
         </div>
