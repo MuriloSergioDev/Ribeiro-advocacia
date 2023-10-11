@@ -53,31 +53,46 @@ function NavMobile() {
         </div>
         <div className="mt-10">
           <Link
-            href="https://www.google.com.br/maps/place/Edif%C3%ADcio+Village+Millenium/@-1.4503726,-48.4916168,15.75z/data=!4m5!3m4!1s0x92a48ea28ce7830b:0x8fbe557bac8ab171!8m2!3d-1.4497321!4d-48.485025"
+            href="https://www.google.com.br/maps/place/Av.+Mal.+Deodoro+da+Fonseca,+1191+-+103+-+Centro,+Santa+Izabel+do+Par%C3%A1+-+PA,+68790-000/@-1.2988304,-48.1638057,19z/data=!3m1!4b1!4m5!3m4!1s0x92a45159c71b191b:0x747bb9d692063bf2!8m2!3d-1.2988317!4d-48.163162?entry=ttu"
             className="cursor-pointer text-lg hover:text-contrast-color transition-all duration-500 delay-0"
           >
-            Tv. Almirante Wandenkolk, 811,
+            Av. Marechal Deodoro da Fonseca, n° 1191
             <br />
-            Ed. Village Millenium, 9º andar,
+            Sala 103
             <br />
-            Bairro Nazaré, Belém-PA
+            Centro, Santa Izabel do Pará - PA
             <br />
-            CEP 66055-030
+            CEP 68790-000
           </Link>
         </div>
         <div className={`mt-10 flex flex-row gap-5 `}>
-          <FontAwesomeIcon
-            icon={faLinkedinIn}
-            className="cursor-pointer text-lg hover:text-contrast-color transition-all duration-500 delay-0"
-          />
-          <FontAwesomeIcon
-            icon={faInstagram}
-            className="cursor-pointer text-lg hover:text-contrast-color transition-all duration-500 delay-0"
-          />
-          <FontAwesomeIcon
-            icon={faWhatsapp}
-            className="cursor-pointer text-lg hover:text-contrast-color transition-all duration-500 delay-0"
-          />
+          <a
+            href="https://www.linkedin.com/in/tobias-ribeiro-99194424b/"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedinIn}
+              className="cursor-pointer text-lg hover:text-contrast-color transition-all duration-500 delay-0"
+            />
+          </a>
+          <a
+            href="https://instagram.com/adv.tobiasribeiro?igshid=MzRlODBiNWFlZA=="
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faInstagram}
+              className="cursor-pointer text-lg hover:text-contrast-color transition-all duration-500 delay-0"
+            />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5591981989031&text=Ol%C3%A1.%20Estou%20entrando%20em%20contato%20para%20solicitar%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os%20jur%C3%ADdicos.%20Poderia%20me%20ajudar%3F"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faWhatsapp}
+              className="cursor-pointer text-lg hover:text-contrast-color transition-all duration-500 delay-0"
+            />
+          </a>
         </div>
       </div>
     </>

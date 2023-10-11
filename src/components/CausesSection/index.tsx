@@ -1,21 +1,14 @@
 import { raleway } from '@/app/fonts'
+import { useMenu } from '@/hooks/useMenu'
 import { useInView } from 'react-intersection-observer'
 
 function CausesSection() {
   const [ref, inView] = useInView({ threshold: 0, triggerOnce: true })
-  const causas = [
-    'DIVÓRCIO',
-    'PENSÃO',
-    'CONTRATO DE UNIÃO ESTÁVEL',
-    'PACTO ANTENUPCIAL',
-    'PENSÃO ALIMENTÍCIA',
-    'PLANEJAMENTO MATRIMONIAL',
-    'GUARDA DE FILHOS',
-    'LITÍGIO',
-  ]
+  const { causes } = useMenu()
+
   return (
     <>
-      <div className="w-full px-10 py-14 bg-secundary-color causas" id="causas">
+      <div className="w-full px-10 py-14 bg-secundary-color causes" id="causas">
         <div
           ref={ref}
           className={`flex flex-col justify-center items-center gap-14 opacity-0 [animation-fill-mode:backwards] ${
@@ -28,7 +21,7 @@ function CausesSection() {
             Causas
           </h2>
           <div className="w-full xl:w-1/2 h-full flex flex-row flex-grow flex-wrap justify-center items-center gap-10">
-            {causas.map((causa, index) => {
+            {causes.map((causa, index) => {
               return (
                 <div
                   className="flex flex-col justify-center items-center text-center border-2 p-5 w-44 h-44 gap-2"
@@ -49,7 +42,7 @@ function CausesSection() {
                     />
                   </svg>
 
-                  <p className="text-contrast-color">{causa}</p>
+                  <p className="text-contrast-color uppercase">{causa}</p>
                 </div>
               )
             })}

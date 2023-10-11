@@ -19,6 +19,7 @@ function BriefItem({ name, picture, message, rate }: BriefItemProps) {
               src={picture}
               alt="logo"
               fill
+              style={{ objectFit: 'cover' }}
               loading="lazy"
               className="rounded-xl"
             />

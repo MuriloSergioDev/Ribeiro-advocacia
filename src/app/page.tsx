@@ -24,10 +24,10 @@ export default function Home() {
       <FooterSection />
 
       <FloatingWhatsApp
-        phoneNumber="5591982737385"
-        accountName="Tobias"
+        phoneNumber="5591981989031"
+        accountName="Tobias Ribeiro"
         chatMessage="Olá! 🤝 Como posso ajudar?"
-        avatar="/profile.jpeg"
+        avatar="/profile.jpg"
         statusMessage="Normalmente responde dentro de 1 hora"
         placeholder="Digite uma mensagem"
         className="text-black"

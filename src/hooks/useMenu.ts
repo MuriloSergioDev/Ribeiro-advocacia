@@ -12,23 +12,45 @@ export function useMenu() {
     { name: 'CONTATO', route: '#contato' },
   ]
 
+  const causes = [
+    'Reclamação Trabalhista',
+    'Acidente de Trabalho',
+    'Reversão de Justa Causa',
+    'Divórcio',
+    'Pensão Alimentícia',
+    'Curatela',
+    'Danos Morais e Materiais',
+    'Revogação da Prisão Preventiva',
+    'Resposta à Acusação',
+    'Habeas Corpus',
+  ]
+
   const clients = [
     {
-      name: 'Julia Silva',
+      name: 'Ana Paula de Oliveira',
       message: 'Excelente advogado, tratou meu caso com maestria !',
-      picture: '/cliente1.avif',
+      picture: '/client1.jpg',
       rate: [1, 2, 3, 4, 5],
     },
     {
-      name: 'Joao pedro',
-      message: 'Excelente advogado, tratou meu caso com maestria !',
-      picture: '/cliente1.avif',
+      name: 'Vitor Paixão',
+      message:
+        'Seu trabalho foi impecável e o resultado, mais do que satisfatório.',
+      picture: '/client3.jpg',
       rate: [1, 2, 3, 4],
     },
     {
-      name: 'Paulo meireles',
-      message: 'Excelente advogado, tratou meu caso com maestria !',
-      picture: '/cliente1.avif',
+      name: 'Bianca Carvalho',
+      message:
+        'Seu profissionalismo e dedicação superaram todas as minhas expectativas.',
+      picture: '/client2.jpg',
+      rate: [1, 2, 3, 4, 5],
+    },
+    {
+      name: 'João',
+      message:
+        'Definitivamente, um dos melhores advogados com quem já trabalhei.',
+      picture: '/client4.jpg',
       rate: [1, 2, 3, 4, 5],
     },
   ]
@@ -43,5 +65,6 @@ export function useMenu() {
     opened,
     handleToggleMenu,
     clients,
+    causes,
   }
 }

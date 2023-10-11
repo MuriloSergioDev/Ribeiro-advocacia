@@ -35,16 +35,14 @@ function AboutSection() {
               Sobre mim
             </h2>
             <p className={`md:text-xl 2xl:text-2xl`}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Sou advogado e consultor jurídico. Atuo de forma objetiva na
+              prevenção e solução de conflitos. Busco honrar e realizar os
+              direitos do cliente.
+              <br />
+              <br />
+              Possuo experiência em escritório de advocacia desde 2015. Graduado
+              no curso de direito em 2019 e devidamente inscrito na Ordem dos
+              advogados do Brasil, seccional Pará.
             </p>
           </div>
         </div>
