@@ -29,9 +29,9 @@ function BenefitTwo() {
             <a
               target="_blank"
               href="https://api.whatsapp.com/send?phone=5591981989031&text=Ol%C3%A1.%20Estou%20entrando%20em%20contato%20para%20solicitar%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os%20jur%C3%ADdicos.%20Poderia%20me%20ajudar%3F"
-              className="w-full md:w-80 lg:w-96"
+              className="w-full mt-20 md:w-80 lg:w-96"
             >
-              <button className="w-full mt-20 rounded p-3 uppercase border-2 border-secundary-color bg-main-color hover:bg-secundary-color hover:text-main-color transition-all duration-500 delay-0">
+              <button className="w-full rounded p-3 uppercase border-2 border-secundary-color bg-main-color hover:bg-secundary-color hover:text-main-color transition-all duration-500 delay-0">
                 Clique aqui e fale comigo
               </button>
             </a>
