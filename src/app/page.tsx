@@ -24,7 +24,7 @@ export default function Home() {
       <FooterSection />
 
       <FloatingWhatsApp
-        phoneNumber="5591981989031"
+        phoneNumber="5591982644713"
         accountName="Tobias Ribeiro"
         chatMessage="Olá! 🤝 Como posso ajudar?"
         avatar="/profile.jpg"
