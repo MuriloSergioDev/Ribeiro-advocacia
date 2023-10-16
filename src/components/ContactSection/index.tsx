@@ -30,7 +30,7 @@ function ContactSection() {
                 className={`md:text-xl 2xl:text-2xl cursor-pointer hover:text-contrast-color transition-all duration-500 delay-0 flex items-center gap-5`}
               >
                 <FontAwesomeIcon icon={faWhatsapp} />
-                (91) 98198-9031
+                (91) 98264-4713
               </a>
             </div>
             <div>
