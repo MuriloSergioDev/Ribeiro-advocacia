@@ -23,7 +23,17 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className={`${roboto.className}`}>
       <body>
-        <title>Advogado Valber Tobias</title>
+        <title>
+          Valber Tobias - Advogado Trabalhista, Criminal e Civil em Belém
+        </title>
+        <meta
+          name="keywords"
+          content="Advogado, trabalho, criminal, civil, Belém"
+        ></meta>
+        <meta name="geo.region" content="BR-PA" />
+        <meta name="geo.placename" content="bel&eacute;m" />
+        <meta name="geo.position" content="-1.45056;-48.468245" />
+        <meta name="ICBM" content="-1.45056, -48.468245" />
         <meta
           name="description"
           content="Advogado especializado em direito do trabalho, criminal e civil. Defendendo seus direitos com excelência. Agende já!"
